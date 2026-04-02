@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import pandas as pd
-df = pd.read_csv('./Demographic Data Analyzer/adult.data.csv')
+df = pd.read_csv('adult.data.csv')
 df.head()
 
 # How many people of each race are represented in this dataset?
