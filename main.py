@@ -1,10 +1,8 @@
-import time_series_visualizer
+import mean_var_std
 from unittest import main
 
-# Test your functions by calling them here
-time_series_visualizer.draw_line_plot()
-time_series_visualizer.draw_bar_plot()
-time_series_visualizer.draw_box_plot()
+# Test the function with a sample list
+print(mean_var_std.calculate([0,1,2,3,4,5,6,7,8]))
 
 # Run unit tests automatically
 main(module='test_module', exit=False)
