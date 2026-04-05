@@ -1,10 +1,8 @@
-import time_series_visualizer
+import sea_level_predictor
 from unittest import main
 
-# Test your functions by calling them here
-time_series_visualizer.draw_line_plot()
-time_series_visualizer.draw_bar_plot()
-time_series_visualizer.draw_box_plot()
+# Test your function by calling it here
+sea_level_predictor.draw_plot()
 
 # Run unit tests automatically
 main(module='test_module', exit=False)
